@@ -1,0 +1,8 @@
+[mongodb]
+gocd-production ansible_host=192.168.50.3   ansible_user=vagrant   ansible_ssh_private_key_file=/vagrant/.vagrant/machines/gocd-production/virtualbox/private_key  ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+[application]
+gocd-production
+
+[web]
+gocd-production
